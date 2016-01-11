@@ -1,6 +1,6 @@
 .container {
   width: 1000px;
-  height: 1000px;
+  height: 800px;
 }
 
 .game-container {
@@ -18,7 +18,7 @@
   background-color: rgba(238,228,218,0.35);
 }
 
-.grid-cell {
+.grid-row > div {
   display: inline-block;
   padding: 2.1px;
   height: 106.25px;
@@ -26,9 +26,50 @@
   border: 2px solid black;
 }
 
+/*.grid-cell {
+  display: inline-block;
+  padding: 2.1px;
+  height: 106.25px;
+  width: 106.25px;
+  border: 2px solid black;
+}
+*/
 .grid-row {
   display: inline;
   width: 470px;
   height: 106.25px;
-  background-color: #BBADA0;
+}
+
+.value-2 {
+  background-color: yellow;
+}
+.value-4 {
+  background-color: pink;
+}
+.value-8 {
+  background-color: red;
+}
+.value-16 {
+  background-color: yellow;
+}
+.value-32 {
+  background-color: yellow;
+}
+.value-64 {
+  background-color: yellow;
+}
+.value-128 {
+  background-color: yellow;
+}
+.value-256 {
+  background-color: yellow;
+}
+.value-512 {
+  background-color: yellow;
+}
+.value-1024 {
+  background-color: yellow;
+}
+.value-2048 {
+  background-color: yellow;
 }
